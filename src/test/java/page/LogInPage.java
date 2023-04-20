@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class LogInPage extends Base {
-	Base b = new Base();
+	
 	WebDriver driver;
 	public void login_site_url() {
 		WebDriverManager.chromedriver().setup();
